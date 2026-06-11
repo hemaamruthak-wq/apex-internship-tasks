@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Task 2 completed"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/apex-internship-task2.git
+git push -u origin main

@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    background:#0077cc;
+    color:white;
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+    gap:20px;
+}
+
+.form-section,
+.todo-section{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:45%;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    padding:10px 15px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:#eee;
+    margin:5px 0;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction:column;
+    }
+
+    .form-section,
+    .todo-section{
+        width:100%;
+    }
+}
