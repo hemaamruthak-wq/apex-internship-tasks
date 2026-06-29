@@ -1,30 +1,42 @@
 body{
-    font-family: Arial;
-    text-align:center;
+    font-family: Arial, sans-serif;
+    margin:0;
     padding:20px;
-    background:#f2f2f2;
+    background:#f4f4f4;
+    color:black;
 }
 
-.quiz-box{
+header{
+    text-align:center;
+    background:#0077cc;
+    color:white;
+    padding:20px;
+}
+
+section{
     background:white;
     padding:20px;
+    margin:20px 0;
     border-radius:10px;
-    width:60%;
-    margin:auto;
 }
 
 button{
     padding:10px;
-    margin:10px;
     cursor:pointer;
 }
 
-@media(max-width:768px){
-    .quiz-box{
-        width:90%;
-    }
+input{
+    display:block;
+    margin:10px 0;
+    padding:10px;
+    width:250px;
+}
 
-    h1{
-        font-size:24px;
-    }
+.dark{
+    background:#222;
+    color:white;
+}
+
+.dark section{
+    background:#333;
 }
